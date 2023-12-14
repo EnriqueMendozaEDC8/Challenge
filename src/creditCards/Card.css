@@ -1,0 +1,26 @@
+.client-card {
+  background-color: #f8f8f9;
+  color: #333333;
+  padding: 32px;
+  font-size: medium;
+  border-radius: 16px;
+  box-shadow: 5px 5px 27px -10px rgba(0,0,0,0.75);
+  text-align: left;
+  gap: 16px;
+}
+
+.elements-to-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.elements-to-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-line {
+  border-left: 2px solid #e3e5e9;
+  height: 400px;
+  margin: 16px;
+}
